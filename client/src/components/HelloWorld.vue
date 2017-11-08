@@ -10,13 +10,13 @@
           <taskAssign/>
         </div>
         <div class="col-md-3">
-          <!-- <taskAssign/> -->
+          <tasklist/>
         </div>
         <div class="col-md-3">
-          <!-- <doing></doing> -->
+          <inprogres/>
       </div>
         <div class="col-md-3">
-          <!-- <done></done> -->
+          <donetask/>
         </div>
       </div>
     </div>
@@ -28,12 +28,16 @@
 import taskcreate from '@/components/taskcreate'
 import tasklist from '@/components/tasklist'
 import taskAssign from '@/components/taskAssign'
+import inprogres from '@/components/inprogres'
+import donetask from '@/components/donetask'
 export default {
   name: 'HelloWorld',
   components: {
     taskcreate,
     tasklist,
-    taskAssign
+    taskAssign,
+    inprogres,
+    donetask
   }
 }
 </script>
